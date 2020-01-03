@@ -205,7 +205,7 @@ body main {
 
     body main #projects {
         width:100%;
-        height:450px;
+        height:600px;
         background:#B4B4B4;
         display: flex;
         flex-direction: column;         
@@ -222,7 +222,7 @@ body main {
 
         body main #projects .projectsWrap {
             margin-top:30px;
-            width:40%;
+            width:50%;
             height:100%;
             background:crimson;
             display:flex;
@@ -232,8 +232,8 @@ body main {
         }
 
         body main #projects .partner {
-            width:100px;
-            height:80px;
+            width:140px;
+            height:100px;
             background-color:darkgrey;
             margin:15px;
         }
@@ -259,7 +259,77 @@ body main {
         width:100%;
         height:600px;
         background:#B4B4B4;
+        display:flex;
+        align-items:center;
+        justify-content: center;
     }
+
+        body main #contactus h1{
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top:39px;
+            font-size:40px;
+            font-weight:normal;
+            margin-left:39px;
+        }
+
+        body main #contactus .contactWrap{
+            width:80%;
+            height:100%;
+            background:crimson;
+        }
+
+            body main #contactus .contactWrap .left{
+                float:left;
+                height:100%;
+                width:50%;
+            }
+
+                .google-maps {
+                    position: relative;
+                    padding-bottom: 75%;
+                    height: 0;
+                    overflow: hidden;
+                    margin-left:39px;
+                    margin-right:19.5px;
+                    margin-top:30px;
+                }
+                .google-maps iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100% !important;
+                    height: 100% !important;
+                }
+
+            body main #contactus .contactWrap .right{
+                float:right;
+                height:100%;
+                width:50%;
+                background:darkred;
+            }
+            
+            body main #contactus .contactWrap form {
+                margin-top:30px;
+                background-color: darksalmon;
+            }
+
+            body main #contactus .contactWrap input {
+                width: 400px;
+                padding: 12px 20px;
+                margin-left:39px;
+            }
+
+            input[type="email"],input[type="tel"],input[type="textarea"],input[type="button"]{
+                margin: 15px 0;
+            }
+
+            body main #contactus .contactWrap input[type="button"] {
+                padding:0; 
+                margin:0;
+                border:0;
+                background-color:transparent;
+            }
 
 body footer {
     height:365px;
