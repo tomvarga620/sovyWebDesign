@@ -18,15 +18,13 @@ body {
 
 body nav.navigation {
     background:red;
-    height:70px;
+    height:60px;
     grid-area:nav;
     display:grid;
     grid-template-columns: 40px 1fr 1fr 1fr 1fr 1fr 1fr 40px;
     grid-template-rows:auto;
     grid-column-gap: 20px;
     align-items: center;
-    position:sticky;
-    top:0;
 }
     body nav.navigation a.logo {
         /*background-color: blue;*/
@@ -67,45 +65,45 @@ body main {
     grid-area:main;
 }
 
-    body main .study {
+    body main #study {
         width:100%;
         height:450px;
         background:#B4B4B4;
     }
 
-    body main .grade {
+    body main #grade {
         width:100%;
         height:600px;
         background:#B4B4B4;
     }
 
 
-    body main .school {
+    body main #school {
         width:100%;
         height:600px;
         background:#B4B4B4;
     }
 
 
-    body main .job {
+    body main #job {
         width:100%;
         height:450px;
         background:#B4B4B4;
     }
 
-    body main .projects {
+    body main #projects {
         width:100%;
         height:450px;
         background:#B4B4B4;
     }
 
-    body main .questions {
+    body main #questions {
         width:100%;
         height:600px;
         background:#B4B4B4;
     }
 
-    body main .contactus {
+    body main #contactus {
         width:100%;
         height:600px;
         background:#B4B4B4;
