@@ -4,3 +4,64 @@ body {
     width:100%;
     height:100%;
 }
+
+body header {
+    width:100%;
+    height:900px;
+    background:#808080;
+}
+
+body main {
+    width:100%;
+
+}
+
+    body main .study {
+        width:100%;
+        height:450px;
+        background:#B4B4B4;
+    }
+
+    body main .grade {
+        width:100%;
+        height:600px;
+        background:#B4B4B4;
+    }
+
+
+    body main .school {
+        width:100%;
+        height:600px;
+        background:#B4B4B4;
+    }
+
+
+    body main .job {
+        width:100%;
+        height:450px;
+        background:#B4B4B4;
+    }
+
+    body main .projects {
+        width:100%;
+        height:450px;
+        background:#B4B4B4;
+    }
+
+    body main .questions {
+        width:100%;
+        height:600px;
+        background:#B4B4B4;
+    }
+
+    body main .contactus {
+        width:100%;
+        height:600px;
+        background:#B4B4B4;
+    }
+
+body footer {
+    width:100%;
+    height:365px;
+    background:#3C3C3C;
+}
