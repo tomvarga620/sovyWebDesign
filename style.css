@@ -124,7 +124,10 @@ body main {
     body main #school {
         width:100%;
         height:600px;
-        background:#B4B4B4;
+        background-color:royalblue;
+        display: flex;
+        flex-direction: column;         
+        align-items: center;
     }
 
         body main #school h1{
@@ -134,6 +137,30 @@ body main {
             font-size:40px;
             font-weight:normal;
         }
+
+        body main #school .schoolDes {
+            margin-top:30px;
+            background-color: salmon;
+            width:100%;
+            height:100%;
+        }
+            body main #school .schoolDes .schoolDesImage{
+                width:50%;
+                height: 100%;
+                float:left;
+                background-color: seagreen;
+            }
+
+            body main #school .schoolDes .schoolDesText{
+                width:50%;
+                height:100%;
+                float:right;
+                font-size:20px;
+            }
+
+            body main #school .schoolDes .schoolDesText p {
+                margin-left:20px;
+            }
 
     body main #job {
         width:100%;
