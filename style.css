@@ -166,6 +166,9 @@ body main {
         width:100%;
         height:450px;
         background:#B4B4B4;
+        display: flex;
+        flex-direction: column;         
+        align-items: center;
     }
 
         body main #job h1{
@@ -175,6 +178,30 @@ body main {
             font-size:40px;
             font-weight:normal;
         }
+
+        body main #job .jobDes {
+            margin-top:30px;
+            background-color: salmon;
+            width:100%;
+            height:100%;
+        }
+            body main #job .jobDes .jobDesImage{
+                width:50%;
+                height: 100%;
+                float:right;
+                background-color: seagreen;
+            }
+
+            body main #job .jobDes .jobDesText{
+                width:50%;
+                height:100%;
+                float:left;
+                font-size:20px;
+            }
+
+            body main #job .jobDes .jobDesText p {
+                margin-left:20px;
+            }
 
     body main #projects {
         width:100%;
