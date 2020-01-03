@@ -222,7 +222,7 @@ body main {
 
         body main #projects .projectsWrap {
             margin-top:30px;
-            width:100%;
+            width:40%;
             height:100%;
             background:crimson;
             display:flex;
@@ -232,10 +232,10 @@ body main {
         }
 
         body main #projects .partner {
-            width:120px;
+            width:100px;
             height:80px;
             background-color:darkgrey;
-            margin:20px;
+            margin:15px;
         }
 
     body main #questions {
