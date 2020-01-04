@@ -7,7 +7,8 @@ $(document).ready(function() {
 });
 
 const animate = (id,toscroll) => {
-    $(id).click(function() {
+    $(id).click(function(e) {
+        e.preventDefault();
         $('html, body').animate({
             scrollTop: $(toscroll).offset().top
         }, 1000);
