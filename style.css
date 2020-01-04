@@ -30,6 +30,8 @@ body nav.navigation {
     grid-template-rows:auto;
     grid-column-gap: 20px;
     align-items: center;
+    z-index: 1;
+    position: relative;
 }
     body nav.navigation a.logo {
         /*background-color: blue;*/
@@ -78,7 +80,7 @@ body header {
     body header .photo1 {
         height: 100%;
         position:relative;
-        background:   url("")no-repeat;
+        background:   url("/Users/tomvarga/Desktop/GIT/sovyWebDesign/images/photo1.png")no-repeat;
         background-size: cover;
         background-position: center;
     }
@@ -86,7 +88,7 @@ body header {
     body header .photo2 {
         height: 100%;
         position:relative;
-        background:   url("")no-repeat;
+        background:   url("/Users/tomvarga/Desktop/GIT/sovyWebDesign/images/photo2.jpg")no-repeat;
         background-size: cover;
         background-position: center;
     }
@@ -99,8 +101,11 @@ body main {
     body main #study {
         width:100%;
         height:450px;
-        /* nastavit background fotku*/
-        background:crimson;
+        background:url("/Users/tomvarga/Desktop/GIT/sovyWebDesign/images/photo3.png") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         display: flex;
         flex-direction: column;         
         align-items: center;
@@ -111,12 +116,14 @@ body main {
             padding-top:39px;
             font-size:2.3em;
             font-weight:normal;
+            color:white;
         }
             body main #study .studyText{
                 margin-top:30px;
                 width:900px;
                 font-size:1.25em;
                 font-weight:300;
+                color:white;
             }
 
     body main #grade {
