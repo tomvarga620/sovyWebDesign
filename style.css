@@ -44,7 +44,7 @@ body nav.navigation {
         margin:0;
         /*background:blue;*/
         grid-column-start: 4;
-        grid-column-end: 9;
+        grid-column-end: last;
     }
 
         body nav.navigation ul li {
