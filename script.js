@@ -4,6 +4,17 @@ $(document).ready(function() {
     animate("#jobbtn","#job");
     animate("#questionsbtn","#questions");
     animate("#contactusbtn","#contactus");
+
+    $("#slider > div:gt(0)").hide();
+
+    setInterval(function() { 
+    $('#slider > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slider');
+    },  3000);
 });
 
 const animate = (id,toscroll) => {
@@ -14,3 +25,4 @@ const animate = (id,toscroll) => {
         }, 1000);
     });
 }
+
