@@ -326,8 +326,13 @@ body main {
                 margin:20px 0px;
             }
 
+            body main #contactus .contactWrap form input[type="text"] {
+                margin-top:initial;
+            }
+
             body main #contactus .contactWrap input[type="button"] {
                 margin:0;
+                margin-top:20px;
                 border:0;
                 background-color:blue;
             }
