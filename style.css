@@ -22,7 +22,7 @@ body {
 }
 
 body nav.navigation {
-    background:red;
+    background:none;
     height:60px;
     grid-area:nav;
     display:grid;
@@ -45,7 +45,7 @@ body nav.navigation {
         margin:0;
         /*background:blue;*/
         grid-column-start: 4;
-        grid-column-end: last;
+        grid-column-end: 8;
     }
 
         body nav.navigation ul li {
@@ -62,7 +62,7 @@ body nav.navigation {
 
 body header {
     background:#808080;
-    height:830px;
+    height:900px;
     grid-area:header;
     position: relative; 
 }
@@ -191,6 +191,7 @@ body main {
 
             body main #school .schoolDes .schoolDesText p {
                 margin-left:19.5px;
+                margin-right:40px;
             }
 
     body main #job {
@@ -231,7 +232,8 @@ body main {
             }
 
             body main #job .jobDes .jobDesText p {
-                margin-left:20px;
+                margin-left:40px;
+                margin-right:19.5px;
             }
 
     body main #projects {
