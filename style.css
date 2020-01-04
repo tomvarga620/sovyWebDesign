@@ -38,6 +38,7 @@ body nav.navigation {
         color:white;
         grid-column-start:2;
         grid-column-end:3;
+        font-size:1.1em
     }
 
     body nav.navigation ul {
@@ -55,7 +56,7 @@ body nav.navigation {
         body nav.navigation ul li a{
             list-style-type: none;
             text-decoration:none;
-            font-size:18px;
+            font-size:1.1em;
             color:white;
         }
 
@@ -83,13 +84,13 @@ body main {
             margin-top: 0;
             margin-bottom: 0;
             padding-top:39px;
-            font-size:40px;
+            font-size:2.3em;
             font-weight:normal;
         }
             body main #study .studyText{
                 margin-top:30px;
                 width:900px;
-                font-size:20px;
+                font-size:1.25em;
                 font-weight:300;
             }
 
@@ -107,7 +108,7 @@ body main {
             margin-top: 0;
             margin-bottom: 0;
             padding-top:39px;
-            font-size:40px;
+            font-size:2.3em;
             font-weight:normal;
         }
 
@@ -139,7 +140,7 @@ body main {
             margin-top: 0;
             margin-bottom: 0;
             padding-top:39px;
-            font-size:40px;
+            font-size:2.3em;
             font-weight:normal;
         }
 
@@ -180,7 +181,7 @@ body main {
             margin-top: 0;
             margin-bottom: 0;
             padding-top:39px;
-            font-size:40px;
+            font-size:2.3em;
             font-weight:normal;
         }
 
@@ -221,7 +222,7 @@ body main {
             margin-top: 0;
             margin-bottom: 0;
             padding-top:39px;
-            font-size:40px;
+            font-size:2.3em;
             font-weight:normal;
         }
 
@@ -256,7 +257,7 @@ body main {
             margin-top: 0;
             margin-bottom: 0;
             padding-top:39px;
-            font-size:40px;
+            font-size:2.3em;
             font-weight:normal;
         }
 
@@ -273,7 +274,7 @@ body main {
             margin-top: 0;
             margin-bottom: 0;
             padding-top:39px;
-            font-size:40px;
+            font-size:2.3em;
             font-weight:normal;
             margin-left:39px;
         }
@@ -360,7 +361,7 @@ body footer {
             margin-bottom: 0;
             padding-top:39px;
             margin-left:39px;
-            font-size:28px;
+            font-size:1.7em;
             font-weight:normal;
             font-weight:400;
         }
@@ -370,7 +371,7 @@ body footer {
             margin-bottom: 0;
             padding-top:19.5px;
             margin-left:39px;
-            font-size:18px;
+            font-size:1.1em;
             font-weight:normal;
             font-weight:500;
         }
@@ -380,7 +381,7 @@ body footer {
             margin-bottom: 0;
             padding-top:39px;
             margin-left:39px;
-            font-size:18px;
+            font-size:1.1em;
             font-weight:normal;
             font-weight:900;
         }
@@ -407,7 +408,7 @@ body footer {
                     list-style-type: none;
                     /*background:crimson;*/
                     margin-top:90px;
-                    font-size:18px;
+                    font-size:1.1em;
                 }
 
                 body footer .footerWrap .articleColumn2 li {
@@ -428,7 +429,7 @@ body footer {
                     list-style-type: none;
                     /*background:crimson;*/
                     margin-top:90px;
-                    font-size:18px;
+                    font-size:1.1em;
                 }
 
                 body footer .footerWrap .articleColumn2 li {
@@ -448,7 +449,7 @@ body footer {
                     list-style-type: none;
                     /*background:crimson;*/
                     margin-top:90px;
-                    font-size:18px;
+                    font-size:1.1em;
                 }
 
                 body footer .footerWrap .articleColumn3 li {
@@ -470,7 +471,7 @@ body footer {
                     margin-bottom: 0;
                     padding-top:90px;
                     margin-left:39px;
-                    font-size:18px;
+                    font-size:1.1em;
                     font-weight:normal;
                     font-weight:500;
                     color:white;
