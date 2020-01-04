@@ -311,24 +311,25 @@ body main {
             
             body main #contactus .contactWrap form {
                 margin-top:30px;
-                background-color: darksalmon;
-            }
-
-            body main #contactus .contactWrap input {
-                width: 400px;
-                padding: 12px 20px;
                 margin-left:39px;
+                background-color:darkorchid;
+                display:flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
             }
 
-            input[type="email"],input[type="tel"],input[type="textarea"],input[type="button"]{
-                margin: 15px 0;
+            body main #contactus .contactWrap form input,textarea {
+                width:80%;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                margin:20px 0px;
             }
 
             body main #contactus .contactWrap input[type="button"] {
-                padding:0; 
                 margin:0;
                 border:0;
-                background-color:transparent;
+                background-color:blue;
             }
 
 body footer {
