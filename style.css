@@ -45,7 +45,7 @@ body nav {
     position: fixed;
     top: 0;
     animation: smoothScroll 1s forwards;
-    background:rgba(0, 0, 0, 0.78);
+    background:rgba(0, 0, 0, 0.85);
     color:#4ABFC4;
     width:100%;
   }
@@ -77,10 +77,13 @@ body nav {
         body nav ul li {
             display:inline-block;
             margin-left:48px;
+            transition: all .2s ease-in-out;
         }
 
-        body nav ul li a:hover{
-            color:red;
+        body nav ul li:hover{
+            -ms-transform: scale(1.3); 
+            -webkit-transform: scale(1.3); 
+            transform: scale(1.3); 
         }
 
         body nav ul li a{
@@ -88,6 +91,10 @@ body nav {
             text-decoration:none;
             font-size:1.1em;
             color:white;
+        }
+
+        body nav ul li a:hover{
+            color:#23D8E0;
         }
 
 
@@ -380,7 +387,7 @@ body main {
             }
             
             body main #questions ul li a.toggle:hover {
-                background: rgba(0, 0, 0, 0.9);
+                background: #4ABFC4;
             }
 
     body main #contactus {

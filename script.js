@@ -12,6 +12,7 @@ $(document).ready(function() {
       }
       });
 
+    animate("#homebtn","#slider");
     animate("#studybtn","#study");
     animate("#schoolbtn","#school");
     animate("#jobbtn","#job");
