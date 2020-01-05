@@ -44,7 +44,7 @@ body nav {
     position: fixed;
     top: 0;
     animation: smoothScroll 1s forwards;
-    background:rgba(0, 0, 0, 0.85);
+    background:rgba(0, 0, 0, 0.9);
     color:#4ABFC4;
     width:100%;
   }
@@ -439,7 +439,7 @@ body main {
     body main #contactus {
         width:100%;
         height:600px;
-        background:white;
+        background:rgba(0, 0, 0,0.85);
         display:flex;
         align-items:center;
         justify-content: center;
@@ -452,6 +452,7 @@ body main {
             font-size:2.3em;
             font-weight:300;
             /*margin-left:39px;*/
+            color:white;
         }
 
 
@@ -460,14 +461,13 @@ body main {
             margin-bottom: 0;
             padding-top:75px;
             font-size:2.3em;
-            margin-left:19.5px;
             font-weight:300;
+            color:white;
         }
 
         body main #contactus .contactWrap{
             width:70%;
             height:100%;
-            /*background:crimson;*/
         }
 
             body main #contactus .contactWrap .left{
@@ -495,14 +495,12 @@ body main {
 
             body main #contactus .contactWrap .right{
                 float:right;
-                height:100%;
                 width:50%;
-                /*background:darkred;*/
             }
             
             body main #contactus .contactWrap form {
+                width:100%;
                 margin-top:30px;
-                margin-left:19.5px;
                 display:flex;
                 justify-content: flex-start;
                 align-items: flex-start;
@@ -510,10 +508,21 @@ body main {
             }
 
             body main #contactus .contactWrap form input,textarea {
-                width:100%;
-                padding: 12px 10px;
                 box-sizing: border-box;
-                margin:20px 0px;
+                width:100%;
+                font-weight: bold;
+                margin-top:20px;
+                height: 50px;
+                padding: 6px 15px;
+                outline: none;
+                border: none;
+                background: #FFFFFF;
+                color: #748194;
+                font-size: 14px;
+            }
+
+            body main #contactus .contactWrap form textarea {
+                height:150px;
             }
 
             body main #contactus .contactWrap form input[type="text"] {
@@ -521,10 +530,20 @@ body main {
             }
 
             body main #contactus .contactWrap input[type="button"] {
-                margin:0;
-                margin-top:20px;
-                border:0;
-                background-color:white;
+                box-sizing: border-box;
+                background-color: #4ABFC3;
+                color:white;
+                display: block;
+                padding: 10px;
+                width: 100%;
+                -webkit-transition: all 0.5s; /* Safari prior 6.1 */
+                transition: all 0.5s;
+            }
+
+            body main #contactus .contactWrap input[type="button"]:hover {
+                background-color: white;
+                color:black;
+                cursor:pointer;
             }
 
 body footer {
