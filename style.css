@@ -79,12 +79,16 @@ body nav {
             margin-left:48px;
         }
 
+        body nav ul li:hover{
+        }
+
         body nav ul li a{
             list-style-type: none;
             text-decoration:none;
             font-size:1.1em;
             color:white;
         }
+
 
 body header {
     background:#808080;
@@ -357,6 +361,7 @@ body main {
             
             body main #questions ul li {
                 margin: 0.5em 0;
+                transition: all .2s ease-in-out;
             }
             
             body main #questions ul li a.toggle {
