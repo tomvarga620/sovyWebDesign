@@ -155,8 +155,9 @@ body main {
             margin-bottom: 0;
             padding-top:70px;
             font-size:2.3em;
-            font-weight:normal;
+            font-weight:300;
             color:white;
+            font-weight:300;
         }
             body main #study .studyText{
                 margin-top:30px;
@@ -169,7 +170,7 @@ body main {
     body main #grade {
         width:100%;
         height:600px;
-        background:#B4B4B4;
+        background:rgba(0, 0, 0,0.9);
         display:flex;
         justify-content: center;
         align-items:center;
@@ -182,10 +183,10 @@ body main {
             padding-top:39px;
             font-size:2.3em;
             font-weight:normal;
+            font-weight:300;
         }
 
         body main #grade .gradeYears {
-            background: brown;
             height:100%;
             width:100%;
             display:flex;
@@ -193,9 +194,49 @@ body main {
             align-items: center;
         } 
             body main #grade .gradeYears .year {
-                width:calc(80% / 3);
+                width:calc(100% / 3);
                 height:100%;
-                background-color: crimson;
+                /*background:crimson;*/
+                display:flex;
+                align-items:flex-start;
+                justify-content:center;
+                flex-direction:column;
+            }
+
+            body main #grade .gradeYears .year:hover {
+                width:calc(100% / 3);
+                height:100%;
+                /*background:crimson;*/
+                display:flex;
+                align-items:flex-start;
+                justify-content:center;
+                flex-direction:column;
+                background:#4ABFC3;
+            }
+
+            body main #grade .gradeYears .year:hover > h1{
+                color:black;
+            }
+
+            body main #grade .gradeYears .year:hover > .yearText{
+                color:black;
+            }
+
+            body main #grade .gradeYears .year h1 {
+                /*margin-top:75px;*/
+                margin-left:39px;
+                font-size:3em;
+                font-weight:500;
+                color:#4ABFC3
+            }
+
+            body main #grade .gradeYears .year .yearText {
+                margin-top:30px;
+                font-size:1.3em;
+                font-weight:300;
+                margin-left:39px;
+                margin-right:39px;
+                color:white;
             }
 
     body main #school {
@@ -237,6 +278,7 @@ body main {
                 margin-right:40px;
                 font-weight:500;
                 font-size:2.3em;
+                font-weight:300;
             }
 
             body main #school .schoolDes .schoolDesText p:last-child {
@@ -262,6 +304,7 @@ body main {
             padding-top:75px;
             font-size:2.3em;
             font-weight:normal;
+            font-weight:300;
         }
 
         body main #job .jobDes {
@@ -314,6 +357,7 @@ body main {
             padding-top:75px;
             font-size:2.3em;
             font-weight:normal;
+            font-weight:300;
         }
 
         body main #projects .projectsWrap {
@@ -351,6 +395,7 @@ body main {
             padding-top:70px;
             font-size:2.3em;
             font-weight:normal;
+            font-weight:300;
         }
 
             body main #questions a {
@@ -404,7 +449,7 @@ body main {
             margin-bottom: 0;
             padding-top:75px;
             font-size:2.3em;
-            font-weight:normal;
+            font-weight:300;
             /*margin-left:39px;*/
         }
 
@@ -414,8 +459,8 @@ body main {
             margin-bottom: 0;
             padding-top:75px;
             font-size:2.3em;
-            font-weight:normal;
             margin-left:19.5px;
+            font-weight:300;
         }
 
         body main #contactus .contactWrap{
@@ -483,7 +528,7 @@ body main {
 
 body footer {
     height:300px;
-    background:rgba(0, 0, 0, 0.78);
+    background:rgba(0, 0, 0, 0.9);
     grid-area: footer;
     display:flex;
     justify-content:center;
