@@ -21,7 +21,7 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-body nav.navigation {
+body nav {
     background:none;
     height:60px;
     grid-area:nav;
@@ -32,8 +32,30 @@ body nav.navigation {
     align-items: center;
     z-index: 1;
     position: relative;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: position 10s;
+    -ms-transition: position 10s;
+    -o-transition: position 10s;
+    transition: all 0.5s ease;
 }
-    body nav.navigation a.logo {
+
+.fixed {
+    position: fixed;
+    top: 0;
+    animation: smoothScroll 1s forwards;
+    background-color: white;
+    color:#4ABFC4 !important;
+    width:100%;
+  }
+  @keyframes smoothScroll {
+      0% {
+          transform: translateY(-40px);
+      }
+      100% {
+          transform: translateY(0px);
+      }
+  }
+    body nav a.logo {
         /*background-color: blue;*/
         list-style-type:none;
         text-decoration: none;
@@ -43,19 +65,19 @@ body nav.navigation {
         font-size:1.1em
     }
 
-    body nav.navigation ul {
+    body nav ul {
         margin:0;
         /*background:blue;*/
         grid-column-start: 4;
         grid-column-end: 8;
     }
 
-        body nav.navigation ul li {
+        body nav ul li {
             display:inline-block;
             margin-left:48px;
         }
 
-        body nav.navigation ul li a{
+        body nav ul li a{
             list-style-type: none;
             text-decoration:none;
             font-size:1.1em;

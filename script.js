@@ -1,4 +1,17 @@
 $(document).ready(function() {
+
+    $(window).scroll(function() {
+        var sticky = $('#topnav'),
+          scroll = $(window).scrollTop();
+         
+        if (scroll >= 40) { 
+          sticky.addClass('fixed'); }
+        else { 
+         sticky.removeClass('fixed');
+      
+      }
+      });
+
     animate("#studybtn","#study");
     animate("#schoolbtn","#school");
     animate("#jobbtn","#job");
