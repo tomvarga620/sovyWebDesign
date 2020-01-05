@@ -212,6 +212,8 @@ body main {
                 justify-content:center;
                 flex-direction:column;
                 background:#4ABFC3;
+                -webkit-transition: all 0.5s; /* Safari prior 6.1 */
+                transition: all 0.5s;
             }
 
             body main #grade .gradeYears .year:hover > h1{
