@@ -337,7 +337,6 @@ body main {
             padding-top:70px;
             font-size:2.3em;
             font-weight:normal;
-            color:white;
         }
 
             body main #questions a {
@@ -376,7 +375,6 @@ body main {
             body main #questions ul li a.toggle:hover {
                 background: rgba(0, 0, 0, 0.9);
             }
-
 
     body main #contactus {
         width:100%;
