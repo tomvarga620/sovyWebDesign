@@ -387,7 +387,7 @@ body main {
             }
             
             body main #questions ul li a.toggle:hover {
-                background: #4ABFC4;
+                background: #43BCC1;
             }
 
     body main #contactus {
@@ -402,7 +402,7 @@ body main {
         body main #contactus h1{
             margin-top: 0;
             margin-bottom: 0;
-            padding-top:39px;
+            padding-top:75px;
             font-size:2.3em;
             font-weight:normal;
             /*margin-left:39px;*/
@@ -412,7 +412,7 @@ body main {
         body main #contactus h2 {
             margin-top: 0;
             margin-bottom: 0;
-            padding-top:39px;
+            padding-top:75px;
             font-size:2.3em;
             font-weight:normal;
             margin-left:19.5px;
@@ -503,6 +503,8 @@ body footer {
             font-size:1.7em;
             font-weight:normal;
             font-weight:400;
+            color:#4ABFC3;
+            font-weight:300;
         }
 
         body footer .footerWrap h2{
@@ -512,7 +514,7 @@ body footer {
             margin-left:39px;
             font-size:1.1em;
             font-weight:normal;
-            font-weight:500;
+            font-weight:300;
         }
 
         body footer .footerWrap h3{
@@ -522,7 +524,7 @@ body footer {
             margin-left:39px;
             font-size:1.1em;
             font-weight:normal;
-            font-weight:900;
+            font-weight:300;
         }
             body footer .footerWrap .articleColumn,.articleColumn2,.articleColumn3,.articleColumn4 {
                 height:100%;
@@ -611,7 +613,7 @@ body footer {
                     margin-left:39px;
                     font-size:1.1em;
                     font-weight:normal;
-                    font-weight:500;
+                    font-weight:300;
                     color:white;
                 }
 
