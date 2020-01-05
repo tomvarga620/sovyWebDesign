@@ -23,12 +23,12 @@ $(document).ready(function() {
     
       if ($this.next().hasClass('show')) {
           $this.next().removeClass('show');
-          $this.next().slideUp(350);
+          $this.next().slideUp(500);
       } else {
           $this.parent().parent().find('li .inner').removeClass('show');
-          $this.parent().parent().find('li .inner').slideUp(1000);
+          $this.parent().parent().find('li .inner').slideUp(600);
           $this.next().toggleClass('show');
-          $this.next().slideToggle(1000);
+          $this.next().slideToggle(600);
       }
   });
 
