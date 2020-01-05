@@ -1,4 +1,4 @@
-html{
+html,body{
     padding:0;
     margin:0 auto;
     overflow-x: hidden;
@@ -96,6 +96,12 @@ body nav {
             color:#23D8E0;
         }
 
+        body nav ul label { 
+            display:none;
+            cursor: pointer;
+            user-select:none;
+          }
+
 
 body header {
     background:#808080;
@@ -160,7 +166,7 @@ body main {
         }
             body main #study .studyText{
                 margin-top:30px;
-                width:900px;
+                width:80%;
                 font-size:1.3em;
                 font-weight:300;
                 color:white;
@@ -172,27 +178,20 @@ body main {
         background:rgba(0, 0, 0,0.9);
         display:flex;
         justify-content: center;
-        align-items:center;
-        flex-direction:column;
+        align-items:flex-start;
+        flex-direction:row;
     }  
 
-        body main #grade h1{
+        body main #grade .year h1{
             margin-top: 0;
             margin-bottom: 0;
+            margin-left:39px;
             padding-top:39px;
-            font-size:2.3em;
-            font-weight:normal;
+            font-size:2.6em;
             font-weight:300;
+            color:#4ABFC3
         }
-
-        body main #grade .gradeYears {
-            height:100%;
-            width:100%;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-        } 
-            body main #grade .gradeYears .year {
+            body main #grade .year {
                 width:calc(100% / 3);
                 height:100%;
                 /*background:crimson;*/
@@ -202,36 +201,21 @@ body main {
                 flex-direction:column;
             }
 
-            body main #grade .gradeYears .year:hover {
-                width:calc(100% / 3);
-                height:100%;
-                /*background:crimson;*/
-                display:flex;
-                align-items:flex-start;
-                justify-content:center;
-                flex-direction:column;
+            body main #grade .year:hover {
                 background:#4ABFC3;
                 -webkit-transition: all 0.5s; /* Safari prior 6.1 */
                 transition: all 0.5s;
             }
 
-            body main #grade .gradeYears .year:hover > h1{
+            body main #grade .year:hover > h1{
                 color:black;
             }
 
-            body main #grade .gradeYears .year:hover > .yearText{
+            body main #grade .year:hover > .yearText{
                 color:black;
             }
 
-            body main #grade .gradeYears .year h1 {
-                /*margin-top:75px;*/
-                margin-left:39px;
-                font-size:2.6em;
-                font-weight:500;
-                color:#4ABFC3
-            }
-
-            body main #grade .gradeYears .year .yearText {
+            body main #grade .year .yearText {
                 margin-top:30px;
                 font-size:1.3em;
                 font-weight:300;
@@ -598,8 +582,8 @@ body footer {
             }
 
             body footer .footerWrap .articleColumn .articlePartner {
-                    width:50px;
-                    height:50px;
+                    width:45px;
+                    height:45px;
                     background:blue;
                     margin-left:39px;
                     margin-top:19.5px;
@@ -699,3 +683,212 @@ body footer {
                 display:inline-block;
                 
                 }
+
+@media (max-width:1370px){
+    body nav ul li {
+        display:inline-block;
+        margin-left:28px;
+        transition: all .2s ease-in-out;
+    }
+}
+
+@media (max-width:1190px){
+    body nav ul {
+        margin:0;
+        /*background:blue;*/
+        grid-column-start: 4;
+        grid-column-end: 8;
+    }
+
+    body nav ul li {
+        display:inline-block;
+        margin-left:20px;
+        transition: all .2s ease-in-out;
+    }
+}
+
+@media (max-width:1120px){
+    body{
+        padding:0;
+        margin:0 auto;
+        width:100%;
+        height:100%;
+        display:grid;
+        grid-template-columns: 40px repeat(2,1fr) 40px;
+        grid-template-rows:auto;
+        grid-column-gap: 20px;
+        align-items: stretch;
+        grid-template-areas: 
+        "nav nav nav nav"
+        "header header header header"
+        " main main main main "
+        "footer footer footer footer"
+        ;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    body main #grade {
+        width:100%;
+        height:auto;
+        background:rgba(0, 0, 0,0.9);
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction:column;
+    } 
+
+    body main #grade .year h1{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:39px;
+        padding-top:39px;
+        font-size:3em;
+        font-weight:300;
+    }
+
+    body main #study .studyText{
+        margin-top:30px;
+        font-size:1.4em;
+        font-weight:300;
+        color:white;
+    }
+
+    body main #grade .year .yearText {
+        margin-top:30px;
+        font-size:1.4em;
+        font-weight:300;
+        margin-left:39px;
+        margin-right:39px;
+        color:white;
+    }
+
+        body main #grade .year {
+            width:calc(100%/2);
+            height:750px;
+            display:flex;
+            align-items:flex-start;
+            justify-content:center;
+            flex-direction:column;
+        }
+
+        body main #job .jobDes .jobDesText{
+            width:50%;
+            height:100%;
+            float:left;
+            font-size:1.4em;
+            font-weight:300;
+            display:flex;
+            justify-content:center;
+            align-items: flex-start;
+        }
+
+        body main #questions {
+            width:100%;
+            height:1400px;
+        }
+}
+
+@media (max-width:1000px){
+
+    body main #study h1{
+        font-size:2.25em;
+    }
+        body main #study .studyText{
+            font-size:1.2em;
+        }
+
+    body main #job h1{
+            font-size:2.25em;
+        }
+
+        body main #job .jobDes .jobDesText{
+            font-size:1.3em;
+        }
+
+    body main #school .schoolDes .schoolDesText p:first-child {
+        font-size:2.25em;
+    }
+
+    body main #school .schoolDes .schoolDesText p:last-child {
+        font-size:1.2em;
+    }
+
+    body main #projects h1{
+        font-size:2.25em;
+    }
+
+    body main #questions h1{
+        font-size:2.25em;
+    }
+
+    body main #contactus h1{
+        font-size:2.25em;
+    }
+
+
+    body main #contactus h2 {
+        font-size:2.25em;
+    }
+
+}
+
+@media (max-width:900px){
+
+ 
+    body main #job .jobDes .jobDesText{
+        width:50%;
+        height:100%;
+        float:left;
+        font-size:1.3em;
+        font-weight:300;
+        display:flex;
+        justify-content:center;
+        align-items: flex-start;
+    }
+
+    body main #questions {
+        width:100%;
+        height:1450px;
+    }
+
+    body footer {
+        height:400px;
+    }
+
+    body main #contactus {
+        width:100%;
+        height:auto;
+    }
+
+    body main #contactus .contactWrap{
+        width:70%;
+        margin-bottom:39px;
+    }
+
+        body main #contactus .contactWrap .left{
+            float:left;
+            height:100%;
+            width:100%;
+        }
+
+            .google-maps {
+                position: relative;
+                padding-bottom: 437px;
+                height: 0;
+                overflow: hidden;
+                /*margin-left:39px;*/
+                margin-right:19.5px;
+                margin-top:30px;
+            }
+            .google-maps iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100% !important;
+                height: 100% !important;
+        }
+}
+
+@media (max-width:735px){
+
+}
