@@ -978,7 +978,258 @@ body footer {
 
 }
 
-@media (max-width:500px){
+
+@media (max-width:760px){
+
+    body main #study {
+        height:700px;
+    }
+        body main #study h1{
+            font-size:2.2em;
+        }
+            body main #study .studyText{
+                font-size:1.4em;
+        }
+
+        body main #school {
+            width:100%;
+            height:auto;
+        }
+    
+            body main #school .schoolDes {
+                width:100%;
+                height:auto;
+            }
+                body main #school .schoolDes .schoolDesImage{
+                    width:100%;
+                    height:400px;
+                }
+    
+                body main #school .schoolDes .schoolDesText{
+                    width:100%;
+                    height:auto;
+                }
+    
+                body main #school .schoolDes .schoolDesText p:first-child {
+                    margin: 0;
+                    margin-top:19.5px;
+                    font-size:2.2em;
+                    font-weight:300;
+                    margin-left:19.5px;
+                }
+    
+                body main #school .schoolDes .schoolDesText p:last-child {
+                    font-size:1.4em;
+                }
+
+                body main #grade .year h1{
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    margin-left:39px;
+                    padding-top:39px;
+                    font-size:3em;
+                    font-weight:300;
+                }
+            
+                body main #grade .year .yearText {
+                    font-size:1.4em;
+                }
+            
+                    body main #grade .year {
+                        width:60%;
+                        height:750px;
+                    }
+
+
+                body main #job {
+                        width:100%;
+                        height:auto;
+                }
+                
+                        body main #job h1{
+                            font-size:2.2em;
+                        }
+                
+                        body main #job .jobDes {
+                            margin-top:30px;
+                            width:100%;
+                            height:auto;
+                        }
+                            body main #job .jobDes .jobDesImage{
+                                width:100%;
+                                height:400px;
+                            }
+                
+                            body main #job .jobDes .jobDesText{
+                                width:100%;
+                                height:auto;
+                                float:left;
+                                font-size:1.4em;
+                            }
+
+
+                            body main #projects {
+                                width:100%;
+                                height:auto;
+                            }
+                        
+                                body main #projects h1{
+                                    font-size:2.2em;
+                                }
+                        
+                                body main #projects .partner {
+                                    width:173px;
+                                    height:54px;
+                                    /*background-color:darkgrey;*/
+                                    margin:15px;
+                                }
+
+                                body main #questions {
+                                    height:auto;
+                                }
+                body footer {
+                    height:auto;
+                    background:rgba(0, 0, 0, 0.9);
+                    grid-area: footer;
+                    display:flex;
+                    justify-content:center;
+                    color:white;
+                }
+                    body footer .footerWrap {
+                        width:100%;
+                        height:auto;
+                        display:flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                    }
+                        body footer .footerWrap h1{
+                            margin:0;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                            padding-top:39px;
+                            font-size:1.7em;
+                            font-weight:normal;
+                            font-weight:400;
+                            color:#4ABFC3;
+                            font-weight:300;
+                        }
+                
+                        body footer .footerWrap h2{
+                            margin:0;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                            padding-top:19.5px;
+                            font-size:1.1em;
+                            font-weight:normal;
+                            font-weight:300;
+                        }
+                
+                        body footer .footerWrap h3{
+                            margin:0;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                            padding-top:39px;
+                            font-size:1.1em;
+                            font-weight:normal;
+                            font-weight:300;
+                        }
+                            body footer .footerWrap .articleColumn,.articleColumn2,.articleColumn3,.articleColumn4 {
+                                height:100%;
+                                width:100%; 
+                                display:flex;
+                                justify-content:center;
+                                align-items: center ;
+                                flex-direction: column;
+                                /*background-color:deeppink;*/
+                            }
+                
+                            body footer .footerWrap .articleColumn .articlePartner {
+                                    margin:0;
+                                    width:45px;
+                                    height:45px;
+                                    background:blue;
+                                    margin-top:19.5px;
+                                    display:inline-block;
+                            }
+                
+                            body footer .footerWrap .articleColumn2 {
+
+                            }
+                
+                                body footer .footerWrap .articleColumn2 ul{
+                                    margin:0;
+                                    list-style-type: none;
+                                    /*background:crimson;*/
+                                    margin-top:90px;
+                                    font-size:1.1em;
+                                }
+                
+                                body footer .footerWrap .articleColumn2 li {
+                                    margin-top:12px;
+                                }
+                
+                                body footer .footerWrap .articleColumn2 a {
+                                    text-decoration:none;
+                                    display:block;
+                                }
+                
+                            body footer .footerWrap .articleColumn3 {
+                            
+                            }
+                                body footer .footerWrap .articleColumn3 ul{
+                                    margin:0;
+                                    list-style-type: none;
+                                    /*background:crimson;*/
+                                    margin-top:90px;
+                                    font-size:1.1em;
+                                }
+                
+                                body footer .footerWrap .articleColumn3 li {
+                                    margin-top:12px;
+                                }
+                
+                                body footer .footerWrap .articleColumn3 a {
+                                    text-decoration:underline;
+                                    display:block;
+                                    color:white;
+                                }   
+                
+                            body footer .footerWrap .articleColumn4{
+                
+                            }
+                
+                                body footer .footerWrap .articleColumn4 h2{
+                                    margin:0;
+                                    padding-top:90px;
+                                    font-size:1.1em;
+                                    font-weight:normal;
+                                    font-weight:300;
+                                    color:white;
+                                }
+                
+                                body footer .footerWrap .articleColumn4 .articleSocialWrap {
+                                    margin:0;
+                                    margin-top:19.5px;
+                                    width:150px;
+                                    height:50px;
+                                    background:red;
+                                    display:flex;
+                                }
+                
+                                body footer .footerWrap .articleColumn4 .articleSocial {
+                
+                                width:50px;
+                                height:50px;
+                                background:blue;
+                                display:inline-block;
+                                
+                                }
+
+}
+
+
+@media (max-width:587px){
 
     body main #study {
         height:800px;
@@ -1002,11 +1253,6 @@ body footer {
                 body main #school .schoolDes .schoolDesImage{
                     width:100%;
                     height:400px;
-                    background:url("images/photoskola.png") no-repeat center center; 
-                    -webkit-background-size: cover;
-                    -moz-background-size: cover;
-                    -o-background-size: cover;
-                    background-size: cover;
                 }
     
                 body main #school .schoolDes .schoolDesText{
@@ -1088,311 +1334,6 @@ body footer {
                                 body main #questions {
                                     height:auto;
                                 }
-body footer {
-    height:300px;
-    background:rgba(0, 0, 0, 0.9);
-    grid-area: footer;
-    display:flex;
-    justify-content:center;
-    color:white;
-}
-    body footer .footerWrap {
-        width:80%;
-        height:100%;
-        display:flex;
-        align-items: center;
-    }
-        body footer .footerWrap h1{
-            margin-top: 0;
-            margin-bottom: 0;
-            padding-top:39px;
-            margin-left:39px;
-            font-size:1.7em;
-            font-weight:normal;
-            font-weight:400;
-            color:#4ABFC3;
-            font-weight:300;
-        }
-
-        body footer .footerWrap h2{
-            margin-top: 0;
-            margin-bottom: 0;
-            padding-top:19.5px;
-            margin-left:39px;
-            font-size:1.1em;
-            font-weight:normal;
-            font-weight:300;
-        }
-
-        body footer .footerWrap h3{
-            margin-top: 0;
-            margin-bottom: 0;
-            padding-top:39px;
-            margin-left:39px;
-            font-size:1.1em;
-            font-weight:normal;
-            font-weight:300;
-        }
-            body footer .footerWrap .articleColumn,.articleColumn2,.articleColumn3,.articleColumn4 {
-                height:100%;
-                width:calc(100%/4);
-                /*background-color:deeppink;*/
-            }
-
-            body footer .footerWrap .articleColumn .articlePartner {
-                    width:45px;
-                    height:45px;
-                    background:blue;
-                    margin-left:39px;
-                    margin-top:19.5px;
-                    display:inline-block;
-            }
-
-            body footer .footerWrap .articleColumn2 {
-            
-            }
-
-                body footer .footerWrap .articleColumn2 ul{
-                    list-style-type: none;
-                    /*background:crimson;*/
-                    margin-top:90px;
-                    font-size:1.1em;
-                }
-
-                body footer .footerWrap .articleColumn2 li {
-                    margin-top:12px;
-                }
-
-                body footer .footerWrap .articleColumn2 a {
-                    text-decoration:none;
-                    display:block;
-                }
-
-             body footer .footerWrap .articleColumn2 {
-            
-             }
-
-                body footer .footerWrap .articleColumn2 ul{
-                    list-style-type: none;
-                    /*background:crimson;*/
-                    margin-top:90px;
-                    font-size:1.1em;
-                }
-
-                body footer .footerWrap .articleColumn2 li {
-                    margin-top:12px;
-                }
-
-                body footer .footerWrap .articleColumn2 a {
-                    text-decoration:none;
-                    display:block;
-                    color:white;
-                }    
-
-            body footer .footerWrap .articleColumn3 {
-            
-            }
-                body footer .footerWrap .articleColumn3 ul{
-                    list-style-type: none;
-                    /*background:crimson;*/
-                    margin-top:90px;
-                    font-size:1.1em;
-                }
-
-                body footer .footerWrap .articleColumn3 li {
-                    margin-top:12px;
-                }
-
-                body footer .footerWrap .articleColumn3 a {
-                    text-decoration:underline;
-                    display:block;
-                    color:white;
-                }   
-
-            body footer .footerWrap .articleColumn4{
-
-            }
-
-                body footer .footerWrap .articleColumn4 h2{
-                    margin-top: 0;
-                    margin-bottom: 0;
-                    padding-top:90px;
-                    margin-left:39px;
-                    font-size:1.1em;
-                    font-weight:normal;
-                    font-weight:300;
-                    color:white;
-                }
-
-                body footer .footerWrap .articleColumn4 .articleSocialWrap {
-                    margin-left:39px;
-                    margin-top:19.5px;
-                    width:150px;
-                    height:50px;
-                    background:red;
-                    display:flex;
-                }
-
-                body footer .footerWrap .articleColumn4 .articleSocial {
-
-                width:50px;
-                height:50px;
-                background:blue;
-                display:inline-block;
-                
-                }
-
-body footer {
-    height:auto;
-    grid-area: footer;
-    display:flex;
-    align-items: center;
-    justify-content:center;
-    flex-direction: column;
-}
-    body footer .footerWrap {
-        width:100%;
-        height:auto;
-        display:flex;
-        align-items: center;
-        justify-content:center;
-        flex-direction: column;
-        text-align: center;
-    }
-        body footer .footerWrap h1{
-            margin-top: 0;
-            margin-bottom: 0;
-            padding-top:39px;
-            font-size:1.7em;
-            font-weight:normal;
-            font-weight:400;
-            color:#4ABFC3;
-            font-weight:300;
-        }
-
-        body footer .footerWrap h2{
-            margin-top: 0;
-            margin-bottom: 0;
-            padding-top:19.5px;
-            font-size:1.1em;
-            font-weight:normal;
-            font-weight:300;
-        }
-
-        body footer .footerWrap h3{
-            margin-top: 0;
-            margin-bottom: 0;
-            padding-top:39px;
-            font-size:1.1em;
-            font-weight:normal;
-            font-weight:300;
-        }
-            body footer .footerWrap .articleColumn,.articleColumn2,.articleColumn3,.articleColumn4 {
-                height:100%;
-                width:100%;
-                /*background-color:deeppink;*/
-            }
-
-            body footer .footerWrap .articleColumn .articlePartner {
-                    width:45px;
-                    height:45px;
-                    background:blue;
-                    margin-top:19.5px;
-                    display:inline-block;
-            }
-
-            body footer .footerWrap .articleColumn2 {
-            
-            }
-
-                body footer .footerWrap .articleColumn2 ul{
-                    list-style-type: none;
-                    margin-top:90px;
-                    font-size:1.1em;
-                }
-
-                body footer .footerWrap .articleColumn2 li {
-                    margin-top:12px;
-                }
-
-                body footer .footerWrap .articleColumn2 a {
-                    text-decoration:none;
-                    display:block;
-                }
-
-             body footer .footerWrap .articleColumn2 {
-            
-             }
-
-                body footer .footerWrap .articleColumn2 ul{
-                    list-style-type: none;
-                    /*background:crimson;*/
-                    margin-top:90px;
-                    font-size:1.1em;
-                }
-
-                body footer .footerWrap .articleColumn2 li {
-                    margin-top:12px;
-                }
-
-                body footer .footerWrap .articleColumn2 a {
-                    text-decoration:none;
-                    display:block;
-                    color:white;
-                }    
-
-            body footer .footerWrap .articleColumn3 {
-            
-            }
-                body footer .footerWrap .articleColumn3 ul{
-                    list-style-type: none;
-                    /*background:crimson;*/
-                    margin-top:90px;
-                    font-size:1.1em;
-                }
-
-                body footer .footerWrap .articleColumn3 li {
-                    margin-top:12px;
-                }
-
-                body footer .footerWrap .articleColumn3 a {
-                    text-decoration:underline;
-                    display:block;
-                    color:white;
-                }   
-
-            body footer .footerWrap .articleColumn4{
-                display:flex;
-                align-items: center;
-                justify-content:center;
-                flex-direction: column;
-                text-align: center;
-            }
-
-                body footer .footerWrap .articleColumn4 h2{
-                    margin-top: 0;
-                    margin-bottom: 0;
-                    padding-top:90px;
-                    font-size:1.1em;
-                    font-weight:normal;
-                    font-weight:300;
-                    color:white;
-                }
-
-                body footer .footerWrap .articleColumn4 .articleSocialWrap {
-                    margin-top:19.5px;
-                    width:150px;
-                    height:50px;
-                }
-
-                body footer .footerWrap .articleColumn4 .articleSocial {
-
-                width:50px;
-                height:50px;
-                background:blue;
-                
-                }
-
 }
 
 @media (max-height:1080px){
