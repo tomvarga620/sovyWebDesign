@@ -690,47 +690,20 @@ body footer {
                 }
 
 @media (max-width:1920px){
-    body main #study {
-        width:100%;
-        height:450px;
-    }
+
         body main #study h1{
-            margin-top: 0;
-            margin-bottom: 0;
-            padding-top:70px;
             font-size:2.3em;
-            font-weight:300;
-            color:white;
-            font-weight:300;
         }
-            body main #study .studyText{
-                margin-top:30px;
-                width:60%;
-                font-size:1.3em;
-                font-weight:300;
-                color:white;
-            }
+        
+        body main #study .studyText{
+            width:65%;
+        }
 
 
     body main #grade {
-        width:100%;
         height:700px;
-        background:rgba(0, 0, 0,0.9);
-        display:flex;
-        justify-content: center;
-        align-items:flex-start;
-        flex-direction:row;
     }  
 
-   body main #grade .year {
-        width:calc(100% / 3);
-        height:100%;
-        /*background:crimson;*/
-        display:flex;
-        align-items:flex-start;
-        justify-content:center;
-        flex-direction:column;
-    }
 }
 
 
@@ -739,10 +712,25 @@ body footer {
              grid-column-start:4;
              grid-column-end:8;
          }
+
+         body main #study .studyText{
+            width:75%;
+        }
+
+}
+
+@media(max-width:1440px) {
+    body main #study .studyText{
+        width:80%;
+    }
+
 }
 
 @media (max-width:1190px){
     /*tu uz menit na burger menu*/
+    body main #study .studyText{
+        width:80%;
+    }
 }
 
 @media (max-width:1120px){
