@@ -819,16 +819,6 @@ body footer {
     body main #study .studyText{
         width:80%;
     }
-
-    body header nav ul {
-        display:none;
-    }
-    
-
-    .hamburger {
-        display:block;
-        grid-column-start:8;
-    }
 }
 
 @media (max-width:1120px){
