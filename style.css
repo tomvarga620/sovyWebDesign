@@ -43,6 +43,20 @@ body nav {
     transition: all 0.5s ease;
 }
 
+.hamburger{
+    background:none;
+    line-height:45px;
+    padding:5px 15px 0px 15px;
+    color:white;
+    border:0;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:20;
+    display:none;
+  }
+
 .fixed {
     position: fixed;
     top: 0;
@@ -499,6 +513,77 @@ body main {
                 flex-direction: column;
             }
 
+                    /* Place Holder CSS */
+        ::-webkit-input-placeholder {
+            color: #000;
+            opacity: 0.5;
+            -webkit-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
+        :-moz-placeholder {
+            color: #000;
+            opacity: 0.5;
+            -moz-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
+        ::-moz-placeholder {
+            color: #000;
+            opacity: 0.5;
+            -moz-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
+        :-ms-input-placeholder {  
+            color: #000;
+            opacity: 0.5;
+            -ms-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
+        
+        /* Place Holder CSS for Focus */
+        :hover::-webkit-input-placeholder {
+            opacity: 0.75;
+            -webkit-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
+        :hover:-moz-placeholder {
+            opacity: 0.75;
+            -moz-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
+        :hover::-moz-placeholder {
+            opacity: 0.75;
+            -moz-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
+        :hover:-ms-input-placeholder {  
+            opacity: 0.75;
+            -ms-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
+        
+        /* Place Holder CSS for Focus */
+        :focus::-webkit-input-placeholder {
+            opacity: 0;
+            -webkit-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
+        :focus:-moz-placeholder {
+            opacity: 0;
+            -moz-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
+        :focus::-moz-placeholder {
+            opacity: 0;
+            -moz-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
+        :focus:-ms-input-placeholder {  
+            opacity: 0;
+            -ms-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
+  
+
             body main #contactus .contactWrap form input,textarea {
                 box-sizing: border-box;
                 width:100%;
@@ -733,6 +818,16 @@ body footer {
     /*tu uz menit na burger menu*/
     body main #study .studyText{
         width:80%;
+    }
+
+    body header nav ul {
+        display:none;
+    }
+    
+
+    .hamburger {
+        display:block;
+        grid-column-start:8;
     }
 }
 

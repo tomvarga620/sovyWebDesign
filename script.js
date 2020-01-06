@@ -1,5 +1,14 @@
 $(document).ready(function() {
 
+  $( ".hamburger" ).click(function() {
+    var x = document.getElementById("items");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+  });
+
     $(window).scroll(function() {
         var sticky = $('#topnav'),
           scroll = $(window).scrollTop();
@@ -8,9 +17,8 @@ $(document).ready(function() {
           sticky.addClass('fixed'); }
         else { 
          sticky.removeClass('fixed');
-      
       }
-      });
+  });
 
     animate("#homebtn","#slider");
     animate("#studybtn","#study");
@@ -28,7 +36,7 @@ $(document).ready(function() {
         .fadeIn(1000)
         .end()
         .appendTo('#slider');
-    },  3000);
+    },  5000);
 
     $('.toggle').click(function(e) {
         e.preventDefault();
@@ -64,5 +72,5 @@ const hamburger = () => {
     } else {
       x.style.display = "block";
     }
-}
 
+}
