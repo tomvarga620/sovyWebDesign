@@ -1,13 +1,9 @@
 $(document).ready(function() {
 
-  $( ".hamburger" ).click(function() {
-    var x = document.getElementById("items");
-    if (x.style.display === "flex") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "flex";
-    }
-  });
+    $('.hamburger').click(function(e) {
+        e.preventDefault();
+        $('#items').toggleClass('active');
+    });
 
     $(window).scroll(function() {
         var sticky = $('#topnav'),

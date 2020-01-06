@@ -53,8 +53,9 @@ body nav {
     font-weight:bold;
     cursor:pointer;
     outline:none;
-    z-index:20;
-    display:none;
+    z-index:2;
+    grid-column-start: 7;
+    grid-column-end:7;
   }
 
 .fixed {
@@ -87,7 +88,7 @@ body nav {
         margin:0;
         /*background:blue;*/
         grid-area:navul;
-        display:flex;
+        display:none;
         justify-content:space-evenly;
         align-items:flex-start;
         flex-direction: row;
@@ -119,7 +120,7 @@ body nav {
             display:none;
             cursor: pointer;
             user-select:none;
-          }
+        }
 
 
 body header {
@@ -814,10 +815,67 @@ body footer {
 
 }
 
+@media (min-width:1190px){
+    /*tu uz menit na burger menu*/
+
+    #items {
+        margin:0;
+        /*background:blue;*/
+        grid-area:navul;
+        display:flex;
+        justify-content:space-evenly;
+        align-items:flex-start;
+        flex-direction: row;
+    }
+    .hamburger {
+        display: none;
+    }
+}
+
 @media (max-width:1190px){
     /*tu uz menit na burger menu*/
     body main #study .studyText{
         width:80%;
+    }
+
+    #items.active {
+        margin:0;
+        background:blue;
+        grid-area:navul;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        grid-column-start: 1;
+        grid-column-end:9;
+    }
+
+    body nav ul#items li {
+        list-style-type: none;
+        transition: all .2s ease-in-out;
+    }
+
+    body nav ul#items li:hover{
+        -ms-transform: scale(1.3); 
+        -webkit-transform: scale(1.3); 
+        transform: scale(1.3); 
+    }
+
+    body nav ul#items li a{
+        list-style-type: none;
+        text-decoration:none;
+        font-size:1.1em;
+        color:white;
+    }
+
+    body nav ul#items li a:hover{
+        color:#23D8E0;
+    }
+
+    body nav ul#items label { 
+        display:none;
+        cursor: pointer;
+        user-select:none;
     }
 }
 
