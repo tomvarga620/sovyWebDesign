@@ -28,7 +28,6 @@ body nav {
     grid-area:nav;
     display:grid;
     grid-template-columns: 40px repeat(6,1fr) 40px;
-    grid-template-rows:auto;
     grid-column-gap: 20px;
     align-items: center;
     z-index: 1;
@@ -838,9 +837,13 @@ body footer {
         width:80%;
     }
 
+    body header nav {
+        height:auto;
+    }
+
     #items.active {
         margin:0;
-        background:blue;
+        /*background:blue;*/
         grid-area:navul;
         display:flex;
         justify-content:center;
@@ -853,6 +856,7 @@ body footer {
     body nav ul#items li {
         list-style-type: none;
         transition: all .2s ease-in-out;
+        margin-top:20px;
     }
 
     body nav ul#items li:hover{
