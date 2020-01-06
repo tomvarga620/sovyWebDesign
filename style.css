@@ -32,6 +32,9 @@ body nav {
     grid-column-gap: 20px;
     align-items: center;
     z-index: 1;
+    grid-template-areas: 
+    ". . . . navul navul navul ."
+    ;
     position: relative;
     -webkit-transition: all 0.5s ease;
     -moz-transition: position 10s;
@@ -69,13 +72,15 @@ body nav {
     body nav ul {
         margin:0;
         /*background:blue;*/
-        grid-column-start: 4;
-        grid-column-end: 8;
+        grid-area:navul;
+        display:flex;
+        justify-content:space-evenly;
+        align-items:flex-start;
+        flex-direction: row;
     }
 
         body nav ul li {
-            display:inline-block;
-            margin-left:48px;
+            list-style-type: none;
             transition: all .2s ease-in-out;
         }
 
@@ -684,12 +689,12 @@ body footer {
                 
                 }
 
-@media (max-width:1370px){
-    body nav ul li {
-        display:inline-block;
-        margin-left:28px;
-        transition: all .2s ease-in-out;
-    }
+
+@media (max-width:1600px){
+         body nav ul {
+             grid-column-start:4;
+             grid-column-end:8;
+         }
 }
 
 @media (max-width:1190px){
