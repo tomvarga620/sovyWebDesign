@@ -214,18 +214,55 @@ body main {
                 width:calc(100% / 3);
                 height:100%;
                 /*background:crimson;*/
-                background: ;
+                /*
+                background:url("images/grade/year1.jpg") center center; 
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;*/
                 display:flex;
                 align-items:flex-start;
                 justify-content:center;
                 flex-direction:column;
             }
 
-            body main #grade .year:hover {
-                background:#4ABFC3;
+            body main #grade .year1:hover {
+                /*background:#4ABFC3;*/
+                background:url("images/grade/year1/year1after.png") center center; 
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
                 -webkit-transition: all 0.5s; /* Safari prior 6.1 */
                 transition: all 0.5s;
-            }
+            } 
+
+            body main #grade .year2:hover {
+                /*background:#4ABFC3;*/
+                background:url("images/grade/year2/year2after.png") center center; 
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                -webkit-transition: all 0.5s; /* Safari prior 6.1 */
+                transition: all 0.5s;
+            } 
+
+
+            body main #grade .year3:hover {
+                /*background:#4ABFC3;*/
+                background:url("images/grade/year3/year3after.png") center center; 
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                -webkit-transition: all 0.5s; /* Safari prior 6.1 */
+                transition: all 0.5s;
+            } 
 
             body main #grade .year:hover > h1{
                 color:black;
