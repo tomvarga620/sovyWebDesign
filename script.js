@@ -12,7 +12,7 @@ $(document).ready(function() {
         if (scroll >= 40) { 
           $('#logowrap').addClass('logophoto');
           sticky.addClass('fixed'); }
-        else { 
+        else {
           $('#logowrap').removeClass('logophoto');
          sticky.removeClass('fixed');
       }
