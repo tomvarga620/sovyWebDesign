@@ -10,8 +10,10 @@ $(document).ready(function() {
           scroll = $(window).scrollTop();
          
         if (scroll >= 40) { 
+          $('#logowrap').addClass('logophoto');
           sticky.addClass('fixed'); }
         else { 
+          $('#logowrap').removeClass('logophoto');
          sticky.removeClass('fixed');
       }
   });

@@ -76,13 +76,23 @@ body nav {
       }
   }
     body nav a.logo {
-        /*background-color: blue;*/
+       /* background-color: blue;*/
         list-style-type:none;
         text-decoration: none;
         color:white;
+        font-size:1.1em;
         grid-column-start:2;
         grid-column-end:3;
-        font-size:1.1em
+    }
+
+    body nav .logophoto {
+        width:50px;
+        height:50px;
+        background:url("images/headerLogo.png")no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     body nav ul {
