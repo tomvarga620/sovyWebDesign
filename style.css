@@ -878,20 +878,71 @@ body footer {
                 body footer .footerWrap .articleColumn4 .articleSocialWrap {
                     margin-left:39px;
                     margin-top:19.5px;
-                    width:150px;
+                    width:200px;
                     height:50px;
-                    background:red;
+                    /*background:red;*/
                     display:flex;
+                    justify-content: space-between;
                 }
 
                 body footer .footerWrap .articleColumn4 .articleSocial {
 
                 width:50px;
                 height:50px;
-                background:blue;
+                /*background:blue;*/
                 display:inline-block;
                 
                 }
+                
+                body footer .footerWrap .articleColumn4 .fbIcon {
+                    background:url(images/socialmedia/facebook1.png)no-repeat center center; 
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                    transition: all 0.5s ease-in-out;
+                }
+
+                    body footer .footerWrap .articleColumn4 .fbIcon:hover{
+                        background:url(images/socialmedia/facebook2.png)no-repeat center center; 
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                    }
+
+                body footer .footerWrap .articleColumn4 .twitterIcon {
+                    background:url(images/socialmedia/twitter1.png)no-repeat center center; 
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                    transition: all 0.5s ease-in-out;
+                }
+
+                    body footer .footerWrap .articleColumn4 .twitterIcon:hover{
+                        background:url(images/socialmedia/twitter2.png)no-repeat center center; 
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                    }
+
+                body footer .footerWrap .articleColumn4 .linkedinIcon {
+                    background:url(images/socialmedia/linkedin1.png)no-repeat center center; 
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                    transition: all 0.5s ease-in-out;
+                }
+                    body footer .footerWrap .articleColumn4 .linkedinIcon:hover {
+                        background:url(images/socialmedia/linkedin2.png)no-repeat center center; 
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                    }
 
 @media (max-width:1920px){
 
@@ -1523,9 +1574,8 @@ body footer {
                                 body footer .footerWrap .articleColumn4 .articleSocialWrap {
                                     margin:0;
                                     margin-top:19.5px;
-                                    width:150px;
+                                    width:200px;
                                     height:50px;
-                                    background:red;
                                     display:flex;
                                 }
                 
@@ -1533,11 +1583,9 @@ body footer {
                 
                                 width:50px;
                                 height:50px;
-                                background:blue;
                                 display:inline-block;
                                 
                                 }
-
 }
 
 
