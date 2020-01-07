@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 html,body{
     padding:0;
     margin:0 auto;
@@ -96,6 +98,7 @@ body nav {
         body nav ul li {
             list-style-type: none;
             transition: all .2s ease-in-out;
+            font-weight:bold;
         }
 
         body nav ul li:hover{
@@ -130,9 +133,8 @@ body header {
 }
 
 body header .headerText {
-    color:white;
     display:flex;
-    justify-content: center;
+    justify-content:center;
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
@@ -144,12 +146,11 @@ body header .headerText {
 body header .headerText h1{
     margin-top: 0;
     margin-bottom: 0;
-    padding-top:70px;
-    font-size:3.5em;
-    font-weight:300;
+    padding-top:150px;
+    font-size:4em;
+    font-weight:bold;
     color:white;
-    font-weight:300;
-    margin-left:60px;
+    margin-left:60px;    
 }
 
 
@@ -157,11 +158,10 @@ body header .headerText p{
     margin-top: 0;
     margin-bottom: 0;
     padding-top:70px;
-    font-size:3em;
-    font-weight:300;
+    font-size:3.2em;
     color:white;
-    font-weight:300;
     margin-left:60px;
+    font-weight:500;
 }
     body header > div{
         position: absolute; 
@@ -213,15 +213,14 @@ body main {
             margin-bottom: 0;
             padding-top:70px;
             font-size:2.3em;
-            font-weight:300;
             color:white;
-            font-weight:300;
+            font-weight:bold;
         }
             body main #study .studyText{
                 margin-top:30px;
                 width:80%;
                 font-size:1.3em;
-                font-weight:300;
+                font-weight:500;
                 color:white;
             }
 
@@ -241,7 +240,7 @@ body main {
             margin-left:39px;
             padding-top:39px;
             font-size:2.6em;
-            font-weight:300;
+            font-weight:500;
             color:#4ABFC3
         }
             body main #grade .year {
@@ -308,10 +307,11 @@ body main {
 
             body main #grade .year .yearText {
                 margin-top:30px;
-                font-size:1.3em;
+                font-size:1.4em;
                 font-weight:300;
                 margin-left:39px;
                 margin-right:39px;
+                font-weight:normal;
                 color:white;
             }
 
@@ -364,7 +364,7 @@ body main {
                 margin-top:39px;
                 font-weight:200;
                 font-size:1.4em;
-                color:rgba(0, 0, 0, 0.5);
+                color:rgba(0, 0, 0, 0.65);
             }
 
     body main #job {
@@ -418,7 +418,7 @@ body main {
                 margin-left:40px;
                 margin-right:19.5px;
                 margin-top:39px;
-                color:rgba(0, 0, 0, 0.5);
+                color:rgba(0, 0, 0, 0.65);
             }
 
     body main #projects {
@@ -494,6 +494,7 @@ body main {
                 padding-left: 1em;
                 overflow: hidden;
                 display: none;
+                font-weight:500;
             }
             
             body main #questions ul li {
@@ -704,7 +705,7 @@ body footer {
     color:white;
 }
     body footer .footerWrap {
-        width:80%;
+        width:90%;
         height:100%;
         display:flex;
         align-items: center;
@@ -718,7 +719,7 @@ body footer {
             font-weight:normal;
             font-weight:400;
             color:#4ABFC3;
-            font-weight:300;
+            font-weight:600;
         }
 
         body footer .footerWrap h2{
@@ -754,6 +755,49 @@ body footer {
                     margin-top:19.5px;
                     display:inline-block;
             }
+
+            
+            body footer .footerWrap .articleColumn .articlePartner1 {
+                width:152px;
+                height:49px;
+                background:url(images/partnersfooter/logo_footer_gl.png)no-repeat center center; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                margin-left:39px;
+                margin-top:19.5px;
+                display:inline-block;
+            }
+
+
+            body footer .footerWrap .articleColumn .articlePartner2 {
+                width:64px;
+                height:64px;
+                background:url(images/partnersfooter/logo_footer_it.png)no-repeat center center; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                margin-left:39px;
+                margin-top:19.5px;
+                display:inline-block;
+            }
+
+
+            body footer .footerWrap .articleColumn .articlePartner3 {
+                width:62px;
+                height:79px;
+                background:url(images/partnersfooter/Logo_ssos-brandmark-mono.png)no-repeat center center; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                margin-left:39px;
+                margin-top:19.5px;
+                display:inline-block;
+            }
+
 
             body footer .footerWrap .articleColumn2 {
             
@@ -877,6 +921,10 @@ body footer {
             width:75%;
         }
 
+        body footer {
+            height:auto;
+        }
+    
 }
 
 @media(max-width:1440px) {
@@ -953,6 +1001,10 @@ body footer {
         display:none;
         cursor: pointer;
         user-select:none;
+    }
+
+    body footer {
+        height:500px;
     }
 }
 
@@ -1143,6 +1195,11 @@ body footer {
             width:100%;
         
         }
+
+        body footer {
+            height:550px;
+        }
+        
 }
 
 
@@ -1150,8 +1207,6 @@ body footer {
     body footer .footerWrap .articleColumn .articlePartner {
         width:45px;
         height:45px;
-        background:blue;
-        margin-left:39px;
         margin-top:19.5px;
         display:inline-block;
     }
@@ -1368,9 +1423,46 @@ body footer {
                                     margin:0;
                                     width:45px;
                                     height:45px;
-                                    background:blue;
                                     margin-top:19.5px;
                                     display:inline-block;
+                            }
+
+                            body footer .footerWrap .articleColumn .articlePartner1 {
+                                width:152px;
+                                height:49px;
+                                background:url(images/partnersfooter/logo_footer_gl.png)no-repeat center center; 
+                                -webkit-background-size: cover;
+                                -moz-background-size: cover;
+                                -o-background-size: cover;
+                                background-size: cover;
+                                margin-top:19.5px;
+                                display:inline-block;
+                            }
+                
+                
+                            body footer .footerWrap .articleColumn .articlePartner2 {
+                                width:64px;
+                                height:64px;
+                                background:url(images/partnersfooter/logo_footer_it.png)no-repeat center center; 
+                                -webkit-background-size: cover;
+                                -moz-background-size: cover;
+                                -o-background-size: cover;
+                                background-size: cover;
+                                margin-top:19.5px;
+                                display:inline-block;
+                            }
+                
+                
+                            body footer .footerWrap .articleColumn .articlePartner3 {
+                                width:62px;
+                                height:79px;
+                                background:url(images/partnersfooter/Logo_ssos-brandmark-mono.png)no-repeat center center; 
+                                -webkit-background-size: cover;
+                                -moz-background-size: cover;
+                                -o-background-size: cover;
+                                background-size: cover;
+                                margin-top:19.5px;
+                                display:inline-block;
                             }
                 
                             body footer .footerWrap .articleColumn2 {
