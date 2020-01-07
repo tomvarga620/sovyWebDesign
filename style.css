@@ -825,33 +825,16 @@ body footer {
 
 
             body footer .footerWrap .articleColumn2 {
-            
+                display:flex;
+                justify-content: center;
+                align-items: flex-start;
             }
 
                 body footer .footerWrap .articleColumn2 ul{
+                    padding:0;
                     list-style-type: none;
                     /*background:crimson;*/
-                    margin-top:90px;
-                    font-size:1.1em;
-                }
-
-                body footer .footerWrap .articleColumn2 li {
-                    margin-top:12px;
-                }
-
-                body footer .footerWrap .articleColumn2 a {
-                    text-decoration:none;
-                    display:block;
-                }
-
-             body footer .footerWrap .articleColumn2 {
-            
-             }
-
-                body footer .footerWrap .articleColumn2 ul{
-                    list-style-type: none;
-                    /*background:crimson;*/
-                    margin-top:90px;
+                    margin-top:80px;
                     font-size:1.1em;
                 }
 
@@ -866,12 +849,15 @@ body footer {
                 }    
 
             body footer .footerWrap .articleColumn3 {
-
+                display:flex;
+                justify-content: center;
+                align-items: flex-start;
             }
                 body footer .footerWrap .articleColumn3 ul{
+                    padding:0;
                     list-style-type: none;
                     /*background:crimson;*/
-                    margin-top:90px;
+                    margin-top:80px;
                     font-size:1.1em;
                 }
 
@@ -1000,7 +986,6 @@ body footer {
         body footer {
             height:400px;
         }
-    
 }
 
 @media(max-width:1440px) {
@@ -1572,48 +1557,18 @@ body footer {
                                 margin-top:19.5px;
                                 display:inline-block;
                             }
-                
-                            body footer .footerWrap .articleColumn2 {
 
+                            body footer .footerWrap .articleColumn2 {
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;
                             }
-                
-                                body footer .footerWrap .articleColumn2 ul{
-                                    margin:0;
-                                    list-style-type: none;
-                                    /*background:crimson;*/
-                                    margin-top:90px;
-                                    font-size:1.1em;
-                                }
-                
-                                body footer .footerWrap .articleColumn2 li {
-                                    margin-top:12px;
-                                }
-                
-                                body footer .footerWrap .articleColumn2 a {
-                                    text-decoration:none;
-                                    display:block;
-                                }
-                
+
                             body footer .footerWrap .articleColumn3 {
-                            
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;
                             }
-                                body footer .footerWrap .articleColumn3 ul{
-                                    margin:0;
-                                    list-style-type: none;
-                                    /*background:crimson;*/
-                                    margin-top:90px;
-                                    font-size:1.1em;
-                                }
-                
-                                body footer .footerWrap .articleColumn3 li {
-                                    margin-top:12px;
-                                }
-                
-                                body footer .footerWrap .articleColumn3 a {
-                                    text-decoration:underline;
-                                    display:block;
-                                    color:white;
-                                }   
                 
                             body footer .footerWrap .articleColumn4{
                 
