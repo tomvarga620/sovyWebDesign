@@ -985,6 +985,17 @@ body footer {
 
 }
 
+@media(max-width:1795px){
+
+    body footer {
+        height:400px;
+    }
+
+    body footer .footerWrap .articleColumn .articlePartner1 {
+        display:block;
+    }
+}
+
 
 @media (max-width:1600px){
          body nav ul {
@@ -996,12 +1007,9 @@ body footer {
             width:75%;
         }
 
-        body footer {
-            height:400px;
-        }
 }
 
-@media(max-width:1440px) {
+@media(max-width:1480px) {
 
     body main #job {
         height:600px;
@@ -1014,6 +1022,14 @@ body footer {
     body main #grade {
         height:800px;
     }  
+
+    body footer {
+        height:400px;
+    }
+
+    body footer .footerWrap .articleColumn .articlePartner1 {
+        display:block;
+    }
 
 }
 
