@@ -470,6 +470,7 @@ body main {
     }
 
         body main #projects h1{
+            margin:0;
             margin-top: 0;
             margin-bottom: 0;
             padding-top:75px;
@@ -1715,6 +1716,7 @@ body footer {
 @media (max-width:587px){
 
     body header .headerText h1{
+        padding-top:220px;
         margin:0;
         font-size:3.4em;
         width:80%;
@@ -1823,6 +1825,98 @@ body footer {
                                 body main #questions {
                                     height:auto;
                                 }
+}
+
+@media (max-width:460px){
+
+    body main #study {
+        height:800px;
+    }
+
+    body main #projects {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    body main #grade .year{
+        height:auto;
+    }  
+
+    body main #grade .year h1{
+        margin:0;
+        padding:0;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:39px;
+        padding-top:39px;
+        font-size:3em;
+        font-weight:300;
+    }
+
+    body main #grade .year .yearText {
+        font-size:1.2em;
+    }
+
+    body footer .footerWrap .articleColumn .articlePartner {
+        width:45px;
+        height:45px;
+        margin-top:19.5px;
+        display:inline-block;
+    }
+
+    body header .headerText h1{
+        margin:0;
+        font-size:3em;
+    }
+    
+    
+    body header .headerText p{
+        margin:0;
+        font-size:2.2em;
+    }
+
+
+    body main #study h1{
+        font-size:1.7em;
+    }
+        body main #study .studyText{
+            font-size:1.2em;
+        }
+
+    body main #job h1{
+        font-size:1.7em;
+        }
+
+        body main #job .jobDes .jobDesText{
+            font-size:1.2em;
+        }
+
+    body main #school .schoolDes .schoolDesText p:first-child {
+        font-size:1.7em;
+    }
+
+    body main #school .schoolDes .schoolDesText p:last-child {
+        font-size:1.2em;
+    }
+
+    body main #projects h1{
+                font-size:1.7em;
+    }
+
+    body main #questions h1{
+                  font-size:1.7em;
+    }
+
+    body main #contactus h1{
+                font-size:1.7em;
+    }
+
+
+    body main #contactus h2 {
+                font-size:1.7em;
+    }
 }
 
 @media (max-height:1080px){
