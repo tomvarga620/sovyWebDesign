@@ -1221,6 +1221,15 @@ body footer {
         height:500px
     }
 
+    body header .headerText h1{
+        font-size:3.8em;
+    }
+    
+    
+    body header .headerText p{
+        font-size:3em;
+    }
+
     body main #study h1{
         font-size:2.25em;
     }
@@ -1351,6 +1360,29 @@ body footer {
         margin-top:19.5px;
         display:inline-block;
     }
+
+    body header .headerText {
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height:100%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    body header .headerText h1{
+        margin:0;
+        font-size:3.6em;
+    }
+    
+    
+    body header .headerText p{
+        margin:0;
+        font-size:2.8em;
+    }
+
 
     body main #study h1{
         font-size:2em;
@@ -1652,6 +1684,16 @@ body footer {
 
 
 @media (max-width:587px){
+
+    body header .headerText h1{
+        margin:0;
+        font-size:3.4em;
+    }
+    
+    body header .headerText p{
+        margin:0;
+        font-size:2.6em;
+    }    
 
     body main #study {
         height:900px;
