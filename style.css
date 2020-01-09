@@ -1009,7 +1009,14 @@ body footer {
 
 }
 
-@media(max-width:1480px) {
+@media(max-width:1490px) {
+
+    body nav {
+        grid-template-areas: 
+        ". . . navul navul navul navul ."
+        ;
+        font-size:0.85em;
+    }
 
     body main #job {
         height:600px;
@@ -1056,6 +1063,7 @@ body footer {
     .hamburger {
         display: none;
     }
+
 }
 
 @media (max-width:1190px){
@@ -1139,6 +1147,10 @@ body footer {
         font-family: 'Quicksand', sans-serif;
     }
 
+    body main #study{
+        height:550px
+    }
+
     body main #study .studyText{
         margin-top:30px;
         font-size:1.4em;
@@ -1204,6 +1216,10 @@ body footer {
 }
 
 @media (max-width:1000px){
+
+    body main #study{
+        height:500px
+    }
 
     body main #study h1{
         font-size:2.25em;
@@ -1324,6 +1340,7 @@ body footer {
 
 
 @media (max-width:735px){
+
     body main #grade .year{
         height:auto;
     }  
@@ -1381,7 +1398,7 @@ body footer {
 @media (max-width:760px){
 
     body main #study {
-        height:700px;
+        height:730px;
     }
         body main #study h1{
             font-size:2.2em;
@@ -1637,7 +1654,7 @@ body footer {
 @media (max-width:587px){
 
     body main #study {
-        height:800px;
+        height:900px;
     }
         body main #study h1{
             font-size:2.2em;
