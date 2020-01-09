@@ -185,7 +185,7 @@ body header .headerText p{
     body header .photo1 {
         height: 100%;
         position:relative;
-        background:   url("images/photo1.png")no-repeat center center fixed; 
+        background:   url("images/photo1.png") no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -195,7 +195,7 @@ body header .headerText p{
     body header .photo2 {
         height: 100%;
         position:relative;
-        background:   url("images/photo2.png")no-repeat center center fixed; 
+        background:   url("images/photo2.png") no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -205,7 +205,7 @@ body header .headerText p{
     body header .photo3 {
         height: 100%;
         position:relative;
-        background:   url("images/photo5.png")no-repeat center center fixed; 
+        background:   url("images/photo5.png") no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1716,6 +1716,17 @@ body footer {
 @media (max-width:587px){
 
     body header .headerText h1{
+        margin:0;
+        font-size:2.8em;
+    }
+    
+    
+    body header .headerText p{
+        margin:0;
+        font-size:2.2em;
+    }
+
+    body header .headerText h1{
         padding-top:220px;
         margin:0;
         font-size:3.4em;
@@ -1868,13 +1879,13 @@ body footer {
 
     body header .headerText h1{
         margin:0;
-        font-size:3em;
+        font-size:2.6em;
     }
     
     
     body header .headerText p{
         margin:0;
-        font-size:2.2em;
+        font-size:2em;
     }
 
 
