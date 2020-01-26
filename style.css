@@ -389,12 +389,13 @@ body main {
                 flex-direction: column;
             }
 
-            body main #school .schoolDes .schoolDesText p:first-child {
+            body main #school .schoolDes .schoolDesText h1 {
                 margin:0;
+                padding-top:60px;
                 margin-left:19.5px;
                 margin-right:40px;
                 font-weight:500;
-                font-size:2.3em;
+                font-size:2.6em;
                 font-weight:300;
             }
 
@@ -444,6 +445,7 @@ body main {
 
             body main #job h1{
                 margin:0;
+                padding-top:60px;
                 margin-left:40px;
                 margin-right:19.5px;
                 font-weight:500;
@@ -996,6 +998,7 @@ body footer {
     body footer .footerWrap .articleColumn .articlePartner1 {
         display:block;
     }
+
 }
 
 
@@ -1051,7 +1054,7 @@ body footer {
     
     body main #grade {
         height:900px;
-    }  
+    } 
 }
 
 
@@ -1263,7 +1266,7 @@ body footer {
             font-size:1.3em;
         }
 
-    body main #school .schoolDes .schoolDesText p:first-child {
+    body main #school .schoolDes .schoolDesText h1 {
         font-size:2.25em;
     }
 
@@ -1429,7 +1432,7 @@ body footer {
             font-size:1.1em;
         }
 
-    body main #school .schoolDes .schoolDesText p:first-child {
+    body main #school .schoolDes .schoolDesText h1 {
                 font-size:2em;
     }
 
@@ -1488,7 +1491,7 @@ body footer {
                     height:auto;
                 }
     
-                body main #school .schoolDes .schoolDesText p:first-child {
+                body main #school .schoolDes .schoolDesText h1 {
                     margin: 0;
                     margin-top:19.5px;
                     font-size:2.2em;
@@ -1762,7 +1765,7 @@ body footer {
                     height:auto;
                 }
     
-                body main #school .schoolDes .schoolDesText p:first-child {
+                body main #school .schoolDes .schoolDesText h1 {
                     font-size:2.2em;
                     font-weight:300;
                 }
@@ -1904,7 +1907,7 @@ body footer {
             font-size:1.2em;
         }
 
-    body main #school .schoolDes .schoolDesText p:first-child {
+    body main #school .schoolDes .schoolDesText h1 {
         font-size:1.7em;
     }
 
