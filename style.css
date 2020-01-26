@@ -739,7 +739,7 @@ body main {
             }
 
 body footer {
-    height:300px;
+    height:400px;
     background:rgba(0, 0, 0, 0.9);
     grid-area: footer;
     display:flex;

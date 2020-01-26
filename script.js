@@ -25,6 +25,15 @@ $(document).ready(function() {
     animate("#questionsbtn","#questions");
     animate("#contactusbtn","#contactus");
 
+    // down menu list
+
+    animate("#homebtn2","#slider");
+    animate("#studybtn2","#study");
+    animate("#schoolbtn2","#school");
+    animate("#jobbtn2","#job");
+    animate("#questionsbtn2","#questions");
+    animate("#contactusbtn2","#contactus");
+
     $("#slider > div:gt(0)").hide();
 
     setInterval(function() { 
