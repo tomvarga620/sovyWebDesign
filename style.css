@@ -254,7 +254,7 @@ body main {
         justify-content: center;
         align-items:flex-start;
         flex-direction:row;
-    }  
+    } 
 
         body main #grade .year h1{
             margin:0;
@@ -353,6 +353,48 @@ body main {
                 margin-right:39px;
                 font-weight:normal;
                 color:white;
+            }
+
+    body main .table-study {
+        width:100%;
+        height:auto;
+        padding-bottom:30px;
+        background-color: rgba(0, 0, 0,0.9);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+
+    body main .table-study h1 {
+        margin:0;
+        padding:0;
+        padding-top:60px;
+        color:white;
+        font-size:2em;
+    }
+
+        body main .table-study table {
+            /*color:white;*/
+            color:#4ABFC3;
+            border-collapse:collapse;
+            margin-top:39px;
+            font-size:1.4em;
+            width: 70%;
+        }
+            body main .table-study table th{
+                background-color: #4ABFC3;
+                color:black;
+                border:1px solid black;
+            }
+
+            body main .table-study table,th,td {
+                /*border:1px solid white;*/
+                border:1px solid #4ABFC3;
+            }
+
+            body main .table-study th,td {
+                padding:20px;
             }
 
     body main #school {
