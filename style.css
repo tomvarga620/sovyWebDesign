@@ -413,6 +413,11 @@ body main {
        animation-play-state: paused!important;
      }
 
+     .modalForm {
+         background-color: white;
+         display:none;
+     }
+
         body main .table-study table {
             /*color:white;*/
             color:#4ABFC3;
