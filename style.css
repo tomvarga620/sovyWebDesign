@@ -863,6 +863,17 @@ body footer {
             font-weight:300;
         }
 
+        body footer .footerWrap h2 a {
+            color:white;
+            text-decoration: underline;
+        }
+
+
+        body footer .footerWrap h2 a:hover {
+            color:#4ABFC3;
+            text-decoration: underline;
+        }
+
         body footer .footerWrap h3{
             margin-top: 0;
             margin-bottom: 0;
