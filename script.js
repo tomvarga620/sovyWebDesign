@@ -26,7 +26,6 @@ $(document).ready(function() {
     animate("#contactusbtn","#contactus");
 
     // down menu list
-
     animate("#homebtn2","#slider");
     animate("#studybtn2","#study");
     animate("#schoolbtn2","#school");
@@ -86,6 +85,19 @@ $(document).ready(function() {
     const pause = () => {
       $("#toggleTable").toggleClass('paused');
     }
+
+    formContact.onsubmit = async (e) => {
+      e.preventDefault();
+  
+      let response = await fetch('http://info@akademiasovy.sk', {
+        method: 'POST',
+        body: new FormData(formContact)
+      });
+  
+      let result = await response.json();
+  
+      alert(result.message);
+    };
 
 });
 

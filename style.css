@@ -810,7 +810,7 @@ body main {
                 margin-top:initial;
             }
 
-            body main #contactus .contactWrap input[type="button"] {
+            body main #contactus .contactWrap input[type="submit"] {
                 box-sizing: border-box;
                 background-color: #4ABFC3;
                 color:white;
@@ -821,7 +821,7 @@ body main {
                 transition: all 0.5s;
             }
 
-            body main #contactus .contactWrap input[type="button"]:hover {
+            body main #contactus .contactWrap input[type="submit"]:hover {
                 background-color: white;
                 color:black;
                 cursor:pointer;
