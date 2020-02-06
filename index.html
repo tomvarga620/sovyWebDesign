@@ -12,8 +12,17 @@
 <meta http-equiv="cache-control" content="no-cache"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="script.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
 </head>
 <body>
 
@@ -35,6 +44,9 @@
                     <li><a href="#job" id="jobbtn">Zamestnanie</a></li>
                     <li><a href="#questions" id="questionsbtn">Otázky a odpovede</a></li>
                     <li><a href="#contactus" id="contactusbtn">Kontakt</a></li>
+
+                    <!-- Form popup -->
+                    <!--<li><a href="#regForm" rel="modal:open">Prihláška</a></li>-->
                 </ul>
         </nav>
         <div>
@@ -47,6 +59,14 @@
             <div class="photo3"></div>
         </div>
     </header>
+
+    <!-- Form popup -->
+
+    <!--
+    <div id="regForm" class="modalForm">
+        <p>form</p>
+    </div>
+    -->
 
     <main>
         <section id="study">
@@ -105,6 +125,186 @@
 
                     </section>
                 </article>
+        </section>
+        <section class="table-study">
+            <h1>Učebný plán 2563Q</h1>
+            <a href="#" class="fa fa-angle-double-down" id="toggleTable"></a>
+            <table id="table-of-study"> 
+                <tr>
+                    <th>Kód a názov študijného odboru</th>
+                    <th colspan="4">2563 Q Počítačové systémy</th>
+                </tr>
+                <tr>
+                    <td>Forma štúdia</td>
+                    <td colspan="4">Denná</td>
+                </tr>
+                <tr>
+                    <td>Vyučovací jazyk</td>
+                    <td colspan="4">Slovenský</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Názov predmetu</td>
+                    <td colspan="4">Týždenný počet vyučovacích hodín</td>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>2.</td>
+                    <td>3.</td>
+                    <td>Spolu</td>
+                </tr>
+                <tr>
+                    <td>Teoretické vyučovanie</td>
+                    <td>33</td>
+                    <td>19</td>
+                    <td>7</td>
+                    <td>60</td>
+                </tr>
+
+                <tr>
+                    <td>Anglický jazyk</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>13</td>
+                </tr>
+
+                <tr>
+                    <td>Zákaznícka orientácia</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>Logické systémy</td>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>Programovanie</td>
+                    <td>10</td>
+                    <td>6</td>
+                    <td></td>
+                    <td>16</td>
+                </tr>
+
+                <tr>
+                    <td>Webové technológie</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+
+                <tr>
+                    <td>Výpočtová technika</td>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>Databázové systémy</td>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>Aplikačný softvér</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>Operačné systémy</td>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>Ekonomika podniku</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>Testing</td>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>Seminár k tvorbe záverečných prác</td>
+                    <td></td>
+                    <td></td>
+                    <td>2</td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>Android</td>
+                    <td></td>
+                    <td>3</td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td>Projektový manažment</td>
+                    <td></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td>Praktické vyučovanie</td>
+                    <td></td>
+                    <td>16</td>
+                    <td>28</td>
+                    <td>44</td>
+                </tr>
+
+                <tr>
+                    <td>Odborná prax</td>
+                    <td></td>
+                    <td>12</td>
+                    <td>24</td>
+                    <td>36</td>
+                </tr>
+
+                <tr>
+                    <td>Praktické cvičenia</td>
+                    <td></td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>6</td>
+                </tr>
+
+                <tr>
+                    <td>Záverečný projekt</td>
+                    <td></td>
+                    <td></td>
+                    <td>2</td>
+                    <td>2</td>
+                </tr>
+            </table>
+
         </section>
         <section id="job">
             <section class="jobDes">
@@ -230,12 +430,12 @@ Prajeme veľa šťastia a tešíme sa na stretnutie!
 
                     <article class="right">
                         <h2>Kontakt</h2>
-                        <form>
-                            <input type="text" id="name" name="name" placeholder="Meno">
-                            <input type="email" id="email" name="email" placeholder="E-mail">
-                            <input type="tel" id="tel" name="tel" placeholder="Telefón">
-                            <textarea id="message" name="message" rows="7" cols="50" placeholder="Správa..."></textarea>
-                            <input type="button" id="submit" name="submit" value="Submit">
+                        <form id="formContact">
+                            <input required type="text" id="name" name="name" placeholder="Meno">
+                            <input required type="email" id="email" name="email" placeholder="E-mail">
+                            <input required type="tel" id="tel" name="tel" placeholder="Telefón">
+                            <textarea required id="message" name="message" rows="7" cols="50" placeholder="Správa..."></textarea>
+                            <input required type="submit" id="submit" name="submit" value="Submit">
                         </form>
                     </article>
                 </section>
@@ -246,9 +446,8 @@ Prajeme veľa šťastia a tešíme sa na stretnutie!
         <section class="footerWrap">
             <article class="articleColumn">
                 <h1>Akadémia SOVY</h1>
-                <h2>©2020 Tomáš Varga</h2>
+                <h2>©2020 <a href="https://www.facebook.com/tommvarga" target="_blank">Tomáš Varga</a></h2>
                 <h3>Partneri:</h3>
-                    <a href="https://www.globallogic.com/sk/" target="_blank"><section class="articlePartner articlePartner1"></section></a>
                     <a href="http://www.kosiceitvalley.sk" target="_blank"><section class="articlePartner articlePartner2"></section></a>
                     <a href="http://www.dneperska.sk" target="_blank"><section class="articlePartner articlePartner3"></section></a>
             </article>
@@ -264,16 +463,16 @@ Prajeme veľa šťastia a tešíme sa na stretnutie!
             </article>
             <article class="articleColumn3">
                 <ul>
-                    <li><a href="#">Prihláška SSOŠ Košice</a></li>
-                    <li><a href="#">Informovaný súhlas SSOŠ</a></li>
+                    <li><a href="documents/prihlaska_na_pomaturitne_studium_soss_2018.docx" download>Prihláška SSOŠ Košice</a></li>
+                    <li><a href="documents/informovany_suhlas_ziaci_ssos.doc" download>Informovaný súhlas SSOŠ</a></li>
                 </ul>
             </article>
             <article class="articleColumn4">
                 <h2>Sledujte nás:</h2>
                 <section class="articleSocialWrap">
                     <a href="https://www.facebook.com/itakademiasovy/timeline" target="_blank"><section class="articleSocial fbIcon"></section></a>
-                    <a href="https://twitter.com/globallogic" target="_blank"><section class="articleSocial twitterIcon"></section></a>
-                    <a href="https://www.linkedin.com/company/globallogic-slovakia/" target="_blank"><section class="articleSocial linkedinIcon"></section></a>
+                    <a href="https://twitter.com/kosice_itvalley" target="_blank"><section class="articleSocial twitterIcon"></section></a>
+                    <a href="https://www.linkedin.com/company/kosice-it-valley/" target="_blank"><section class="articleSocial linkedinIcon"></section></a>
                 </section>
             </article>
         </section>

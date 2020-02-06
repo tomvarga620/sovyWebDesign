@@ -26,7 +26,6 @@ $(document).ready(function() {
     animate("#contactusbtn","#contactus");
 
     // down menu list
-
     animate("#homebtn2","#slider");
     animate("#studybtn2","#study");
     animate("#schoolbtn2","#school");
@@ -47,7 +46,6 @@ $(document).ready(function() {
 
     $('.toggle').click(function(e) {
         e.preventDefault();
-    
       let $this = $(this);
     
       if ($this.next().hasClass('show')) {
@@ -60,6 +58,46 @@ $(document).ready(function() {
           $this.next().slideToggle(500);
       }
   });
+
+    $('#toggleTable').click(function(e) {
+        e.preventDefault();
+        flip();
+
+        //$("#table-of-study").toggle("slide");
+
+        //$("#table-of-study").slideToggle("slow")
+        
+        if( $("#table-of-study").first().is(":hidden")){
+          //$("#table-of-study").slideDown();
+          $("#table-of-study").show(500);
+        } else {
+          //$("#table-of-study").slideUp();
+          $("#table-of-study").hide(500);
+        }
+
+    });
+ 
+    const flip = () => {
+      $("#toggleTable").toggleClass('flip');
+      pause();
+    }
+
+    const pause = () => {
+      $("#toggleTable").toggleClass('paused');
+    }
+
+    formContact.onsubmit = async (e) => {
+      e.preventDefault();
+  
+      let response = await fetch('http://info@akademiasovy.sk', {
+        method: 'POST',
+        body: new FormData(formContact)
+      });
+  
+      let result = await response.json();
+  
+      alert(result.message);
+    };
 
 });
 

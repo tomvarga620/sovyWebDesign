@@ -254,7 +254,7 @@ body main {
         justify-content: center;
         align-items:flex-start;
         flex-direction:row;
-    }  
+    } 
 
         body main #grade .year h1{
             margin:0;
@@ -355,6 +355,94 @@ body main {
                 color:white;
             }
 
+    body main .table-study {
+        width:100%;
+        height:auto;
+        padding-bottom:30px;
+        background-color: rgba(0, 0, 0,0.9);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+
+    body main .table-study h1 {
+        margin:0;
+        padding:0;
+        padding-top:60px;
+        color:#4ABFC3;
+        font-size:2em;
+    }
+
+    body main .table-study a {
+        padding-top:30px;
+        color:#4ABFC3;
+        text-decoration: none;
+        font-size:50px;
+
+        /* animation to rotate */
+        -moz-transition: transform 1s;
+        -webkit-transition: transform 1s;
+        transition: transform 1s;
+
+        -webkit-animation: flash linear 1s infinite;
+	    animation: flash linear 1s infinite;
+    }
+
+    @-webkit-keyframes flash {
+        0% { opacity: 1; } 
+        50% { opacity: .1; } 
+        100% { opacity: 1; }
+    }
+    @keyframes flash {
+        0% { opacity: 1; } 
+        50% { opacity: .1; } 
+        100% { opacity: 1; }
+    }
+
+    .flip {
+        transform: rotate(-180deg);
+        transform-origin:center center;
+      }
+
+    .paused {
+        -ms-animation-play-state:paused!important;
+        -o-animation-play-state:paused!important;
+        -moz-animation-play-state:paused!important;
+        -webkit-animation-play-state:paused!important;
+       animation-play-state: paused!important;
+     }
+
+     .modalForm {
+         background-color: white;
+         display:none;
+     }
+
+        body main .table-study table {
+            /*color:white;*/
+            color:#4ABFC3;
+            border-collapse:collapse;
+            margin-top:19.5px;
+            font-size:1.4em;
+            width: 70%;
+            display:none;
+        }
+            body main .table-study table th{
+                font-weight:bold!important;
+                /*background-color: #4ABFC3;
+                color:black;
+                border:1px solid black;*/
+            }
+
+            body main .table-study table,th,td {
+                /*border:1px solid white;*/
+                border:1px solid #4ABFC3;
+            }
+
+            body main .table-study th,td {
+                padding:20px;
+            }
+
     body main #school {
         width:100%;
         height:600px;
@@ -445,11 +533,11 @@ body main {
 
             body main #job h1{
                 margin:0;
-                padding-top:60px;
+                padding-top:70px;
                 margin-left:40px;
                 margin-right:19.5px;
                 font-weight:500;
-                font-size:2.3em;
+                font-size:2em;
                 font-weight:300;
             }
 
@@ -501,13 +589,14 @@ body main {
 
     body main #questions {
         width:100%;
-        height:1300px;
+        height:auto;
         background:white;
         display: flex;
         flex-direction: column;         
         align-items: center;
         justify-content: start;
         font-size:1.2em;
+        padding-bottom:30px;
     }
 
         body main #questions h1{
@@ -721,7 +810,7 @@ body main {
                 margin-top:initial;
             }
 
-            body main #contactus .contactWrap input[type="button"] {
+            body main #contactus .contactWrap input[type="submit"] {
                 box-sizing: border-box;
                 background-color: #4ABFC3;
                 color:white;
@@ -732,7 +821,7 @@ body main {
                 transition: all 0.5s;
             }
 
-            body main #contactus .contactWrap input[type="button"]:hover {
+            body main #contactus .contactWrap input[type="submit"]:hover {
                 background-color: white;
                 color:black;
                 cursor:pointer;
@@ -772,6 +861,17 @@ body footer {
             font-size:1.1em;
             font-weight:normal;
             font-weight:300;
+        }
+
+        body footer .footerWrap h2 a {
+            color:white;
+            text-decoration: underline;
+        }
+
+
+        body footer .footerWrap h2 a:hover {
+            color:#4ABFC3;
+            text-decoration: underline;
         }
 
         body footer .footerWrap h3{
@@ -1227,7 +1327,6 @@ body footer {
 
         body main #questions {
             width:100%;
-            height:1400px;
         }
 }
 
